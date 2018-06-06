@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CXScaleTabScrollView_Example' do
+  pod 'CXScaleTabScrollView', :path => '../'
+
+  target 'CXScaleTabScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
