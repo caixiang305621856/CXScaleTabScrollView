@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0483F11A29B7AE6187AA8178 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0483F11A29B7AE6187AA8178 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CXScaleTabScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXScaleTabScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +61,11 @@
 		702FDFD225766160D2AA9A53 /* Pods_CXScaleTabScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXScaleTabScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D37F836173FCCCFF7D9F49F /* Pods-CXScaleTabScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXScaleTabScrollView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CXScaleTabScrollView_Example/Pods-CXScaleTabScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		813C78CEAAE92396C81DB817 /* CXScaleTabScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CXScaleTabScrollView.podspec; path = ../CXScaleTabScrollView.podspec; sourceTree = "<group>"; };
+		813C78CEAAE92396C81DB817 /* CXScaleTabScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CXScaleTabScrollView.podspec; path = ../CXScaleTabScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D628244D1A529FC18A51E0E0 /* Pods_CXScaleTabScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CXScaleTabScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56544FDD5930734D4B8338A /* Pods-CXScaleTabScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXScaleTabScrollView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CXScaleTabScrollView_Tests/Pods-CXScaleTabScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FD60366662752E49F1037F02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FD60366662752E49F1037F02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FEE3E563C3DC3C13487414C0 /* Pods-CXScaleTabScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CXScaleTabScrollView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CXScaleTabScrollView_Example/Pods-CXScaleTabScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -320,10 +320,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CXScaleTabScrollView_Example/Pods-CXScaleTabScrollView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CXScaleTabScrollView/CXScaleTabScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/ZHSement/ZHSement.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CXScaleTabScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZHSement.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

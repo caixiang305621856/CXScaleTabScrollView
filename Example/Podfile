@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'CXScaleTabScrollView_Example' do
   pod 'CXScaleTabScrollView', :path => '../'
+  pod 'ZHSement'
 
   target 'CXScaleTabScrollView_Tests' do
     inherit! :search_paths
